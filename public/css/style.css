@@ -10690,4 +10690,12 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
 }
 
+#trois_section {
+  margin-top: 10px;
+}
+#trois_section h3, #trois_section .h3 {
+  width: 100%;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
