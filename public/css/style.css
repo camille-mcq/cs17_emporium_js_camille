@@ -10647,8 +10647,8 @@ textarea.form-control-lg {
   font-size: 10px;
 }
 #Première_section #t_shirt {
-  width: 250px;
-  heigth: 180px;
+  width: 100%;
+  heigth: 70vh;
 }
 
 #deuxieme_section {
@@ -10697,6 +10697,7 @@ textarea.form-control-lg {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  font-weight: bold;
 }
 #trois_section .h-100 {
   text-align: center;
@@ -10727,6 +10728,13 @@ textarea.form-control-lg {
   border-radius: 15%;
   font-size: 12px;
   color: white;
+}
+
+#cinq_section {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
