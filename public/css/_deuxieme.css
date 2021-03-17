@@ -1,0 +1,40 @@
+#deuxieme_section {
+  display: flex;
+  justify-content: space-around;
+}
+#deuxieme_section div {
+  height: 25vh;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#deuxieme_section div > p {
+  color: white;
+  text-align: center;
+}
+#deuxieme_section div > hr {
+  color: white;
+  width: 100px;
+}
+#deuxieme_section .prem {
+  background-image: url(./../../public/img/services/service-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#deuxieme_section .deux {
+  background-image: url(./../../public/img/services/service-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#deuxieme_section .trois {
+  background-image: url(./../../public/img/services/slider-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=_deuxieme.css.map */

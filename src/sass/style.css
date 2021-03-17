@@ -11340,4 +11340,24 @@ fieldset:disabled .btn {
   width: 250px;
   heigth: 180px;
 }
+
+#deuxieme_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#deuxieme_section .prem {
+  background-image: url(./../../public/img/services/service-1.jpg);
+}
+
+#deuxieme_section .deux {
+  background-image: url(./../../public/img/services/service-2.jpg);
+}
+
+#deuxieme_section .tois {
+  background-image: url(./../../public/img/services/service-1.jpg);
+}
 /*# sourceMappingURL=style.css.map */
