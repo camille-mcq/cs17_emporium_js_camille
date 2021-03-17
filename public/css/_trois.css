@@ -4,14 +4,11 @@
 #trois_section h3 {
   width: 100%;
   text-align: center;
+  margin-top: 30px;
 }
-#trois_section .col-md-3 {
-  align-items: center;
-}
-#trois_section .col-md-3 .imgs {
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
+#trois_section .h-100 {
+  text-align: center;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=_trois.css.map */

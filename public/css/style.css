@@ -10696,6 +10696,11 @@ textarea.form-control-lg {
 #trois_section h3, #trois_section .h3 {
   width: 100%;
   text-align: center;
+  margin-top: 30px;
+}
+#trois_section .h-100 {
+  text-align: center;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
