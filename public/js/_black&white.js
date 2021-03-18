@@ -6,7 +6,7 @@ let button = document.querySelectorAll("nav button");
 let h3 = document.querySelectorAll("h3");
 let body = document.querySelector("body");
 let nav = document.querySelector("nav");
-console.log(nav)
+
 // Bouton blanc : [1], le bg devient normal + titre noir
 button[1].addEventListener("click", () => {
     body.style = "background-color : white";

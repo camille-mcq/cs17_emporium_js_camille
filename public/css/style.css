@@ -10623,6 +10623,10 @@ textarea.form-control-lg {
   font-family: "PoppinsRegular";
   src: url("../../../public/fonts/Poppins-Black.ttf");
 }
+body {
+  transition: 1s;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -10880,6 +10884,7 @@ footer span {
 footer button {
   font-size: 12px;
   color: #616d77;
+  margin: 2px;
 }
 footer #last {
   background-color: #000;
