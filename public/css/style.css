@@ -10623,6 +10623,29 @@ textarea.form-control-lg {
   font-family: "PoppinsRegular";
   src: url("../../../public/fonts/Poppins-Black.ttf");
 }
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.navbar-brand {
+  align-self: center;
+  width: 30%;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
 #Première_section {
   padding-top: 10px;
   margin-bottom: 10px;
@@ -10636,7 +10659,7 @@ textarea.form-control-lg {
   width: 90%;
 }
 #Première_section #logo_div {
-  width: 98%;
+  width: 90%;
 }
 #Première_section button {
   background-color: #dd4545;
@@ -10703,6 +10726,57 @@ textarea.form-control-lg {
   text-align: center;
   font-size: 12px;
 }
+#trois_section img {
+  width: 100%;
+}
+#trois_section .myAfter {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#trois_section .myAfter:hover {
+  transform: scale(0.95);
+  transition: 1s;
+}
+#trois_section .myBefore::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -70px;
+  width: 50%;
+  height: 70px;
+  background-color: #030303;
+  color: white;
+  z-index: 1;
+  content: "view detail";
+  transition: 1s;
+  opacity: 0.7;
+}
+#trois_section .myAfter::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -70px;
+  right: 0px;
+  width: 50%;
+  height: 70px;
+  background-color: #ff0000;
+  color: white;
+  z-index: 1;
+  content: "Add to cart";
+  transition: 1s;
+  opacity: 0.7;
+}
+#trois_section .myBefore:hover::before {
+  bottom: 0;
+  left: 0;
+}
+#trois_section .myAfter:hover::after {
+  bottom: 0;
+  right: 0;
+}
 
 #quatre_section {
   background-image: url("./../../public/img/cta-bg.jpg");
@@ -10710,7 +10784,7 @@ textarea.form-control-lg {
   background-size: cover;
   width: 100%;
   height: 70vh;
-  background-attachment: scroll;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10724,16 +10798,18 @@ textarea.form-control-lg {
 }
 #quatre_section button {
   background-color: #dd4545;
-  padding: 10px;
-  border-radius: 15%;
+  padding: 14px;
   font-size: 12px;
   color: white;
+  border-radius: 10px;
+  border: 0px solid transparent;
 }
 
 #cinq_section {
   margin-top: 20px;
   text-align: center;
-  font-size: 20px;
+}
+#cinq_section h3, #cinq_section .h3 {
   font-weight: bold;
 }
 
@@ -10762,15 +10838,17 @@ textarea.form-control-lg {
 }
 #six_section div button {
   margin-bottom: 50px;
+  border-radius: 10px;
+  border: 0px solid transparent;
+  color: white;
+  padding: 14px;
+  font-size: 10px;
 }
 #six_section .one {
   background-color: #cacaca;
 }
 #six_section .one button {
   background-color: #272727;
-  padding: 10px;
-  border-radius: 20%;
-  font-size: 12px;
   color: white;
 }
 #six_section #deux {
@@ -10778,9 +10856,40 @@ textarea.form-control-lg {
   color: white;
 }
 #six_section #deux button {
-  padding: 10px;
-  border-radius: 20%;
+  background-color: #cacaca;
+  color: #272727;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  margin-top: 30px;
+}
+footer h5, footer .h5 {
+  margin: 20px;
+  font-size: 17px;
+}
+footer p {
   font-size: 12px;
+  color: #616d77;
+}
+footer span {
+  font-size: 12px;
+  color: white;
+}
+footer button {
+  font-size: 12px;
+  color: #616d77;
+}
+footer #last {
+  background-color: #000;
+  margin-top: 20px;
+  height: 5vh;
+}
+footer #last p {
+  color: #616d77;
+  font-size: 12px;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

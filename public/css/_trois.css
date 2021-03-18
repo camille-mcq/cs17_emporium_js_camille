@@ -11,5 +11,56 @@
   text-align: center;
   font-size: 12px;
 }
+#trois_section img {
+  width: 100%;
+}
+#trois_section .myAfter {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#trois_section .myAfter:hover {
+  transform: scale(0.95);
+  transition: 1s;
+}
+#trois_section .myBefore::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -70px;
+  width: 50%;
+  height: 70px;
+  background-color: #030303;
+  color: white;
+  z-index: 1;
+  content: "view detail";
+  transition: 1s;
+  opacity: 0.7;
+}
+#trois_section .myAfter::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -70px;
+  right: 0px;
+  width: 50%;
+  height: 70px;
+  background-color: #ff0000;
+  color: white;
+  z-index: 1;
+  content: "Add to cart";
+  transition: 1s;
+  opacity: 0.7;
+}
+#trois_section .myBefore:hover::before {
+  bottom: 0;
+  left: 0;
+}
+#trois_section .myAfter:hover::after {
+  bottom: 0;
+  right: 0;
+}
 
 /*# sourceMappingURL=_trois.css.map */

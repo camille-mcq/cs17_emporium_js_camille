@@ -23,15 +23,17 @@
 }
 #six_section div button {
   margin-bottom: 50px;
+  border-radius: 10px;
+  border: 0px solid transparent;
+  color: white;
+  padding: 14px;
+  font-size: 10px;
 }
 #six_section .one {
   background-color: #cacaca;
 }
 #six_section .one button {
   background-color: #272727;
-  padding: 10px;
-  border-radius: 20%;
-  font-size: 12px;
   color: white;
 }
 #six_section #deux {
@@ -39,9 +41,8 @@
   color: white;
 }
 #six_section #deux button {
-  padding: 10px;
-  border-radius: 20%;
-  font-size: 12px;
+  background-color: #cacaca;
+  color: #272727;
 }
 
 /*# sourceMappingURL=_six.css.map */
