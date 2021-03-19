@@ -113,7 +113,7 @@
                     
                     <div class="card-body justify-content-around d-flex container">
                         <div class="row">
-                            <span style="background-color: #dd4545; padding:20px; color: white; border-radius:50%;" >SALES!</span> 
+                            <span style="background-color: #dd4545; padding:20px; color: white; width: 80px; height: 80px;" class="rounded-circle">SALES!</span> 
                         </div>
                         <div class="row">
                             <h5 class="card-title">Leather Gloves</h5>
@@ -147,11 +147,11 @@
                     
                     <div class="card-body justify-content-around d-flex container">
                         <div class="row">
-                            <span style="background-color: #dd4545; padding:20px; color: white; border-radius:50%;">SALES!</span> 
+                            <span style="background-color: #dd4545; padding:20px; color: white;  width: 80px; height: 80px;" class="rounded-circle">SALES!</span> 
                         </div>
                         <div class="row">
                             <h5 class="card-title">Women Bag</h5>
-                            <p class="card-text"style="color: gray;"> <s>$420.00</s><span style="color: #dd4545;"> $350.00</span></p>
+                            <p class="card-text" style="color: gray;"> <s>$420.00</s><span style="color: #dd4545;"> $350.00</span></p>
                         </div>
                     </div>
                 </div>
@@ -236,9 +236,9 @@
     <!--CAROUSSEL  - HOT AND FASHION PRODUCTS-->
     <section id="cinq_section">
         <h3>Hot Fashion Products</h3>
-        <div class="container">
+        <div class="carousel" >
             <!--Luxury Sofa -->
-            <div>
+            <div class="item" id="_1">
                 
                 <div>
                     <img src="./public/img/products_mini/product-luxry-sofa.jpg" class="card-img-top" alt="...">
@@ -251,13 +251,13 @@
             </div>
             
             <!--Leather Gloves -->
-            <div>
+            <div class="item" id="_2">
                 <div>
                     <img src="./public/img/products_mini/product-gloves.jpg" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body justify-content-around d-flex container">
-                    <div class="row">
-                        <span style="background-color: #dd4545; padding:20px; color: white; border-radius:50%;">SALES!</span> 
+                    <div class="row  justify-content-center">
+                        <!-- <span style="background-color: #dd4545; padding: 17px; color: white;  width: 70px; height: 70px;;" class="rounded-circle text-center">SALES!</span>  -->
                     </div>
                     <div class="row">
                         <h5 class="card-title">Leather Gloves</h5>
@@ -265,7 +265,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="item" id="_3">
             <!--Colorful Bowl-->
                 <div>
                     <img src="./public/img/products_mini/product-cups.jpg" class="card-img-top" alt="...">
@@ -276,15 +276,15 @@
                 </div>
             </div>
 
-            <div>
+            <div id="_4" class="item">
             <!--Women Bag-->
                 <div>
                     <img src="./public/img/products_mini/product-bag.jpg" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body justify-content-around d-flex container">
-                    <div class="row">
-                        <span style="background-color: #dd4545; padding:20px; color: white; border-radius:50%;">SALES!</span> 
-                    </div>
+                    <!-- <div class="row justify-content-center">
+                        <span style="background-color: #dd4545; padding: 17px; color: white;  width: 70px; height: 70px;" class="rounded-circle">SALES!</span> 
+                    </div> -->
                     <div class="row">
                         <h5 class="card-title">Women Bag</h5>
                         <p class="card-text"style="color: gray;"> <s>$420.00</s><span style="color: #dd4545;"> $350.00</span></p>
@@ -293,7 +293,7 @@
             </div>
             
             <!--Minimal T-Shirt-->
-            <div>
+            <div id="_5" class="item">
                 <div>
                     <img src="./public/img/products_mini/product-tshitr.jpg" class="card-img-top" alt="...">
                 </div>
@@ -304,17 +304,17 @@
              </div>
              
             <!--Plate sets-->
-            <div>
+            <div id="_6" class="item">
                 <div>
                     <img src="./public/img/products_mini/product-plates.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body">
+                <div class="car=d-body">
                     <h5 class="card-title">Plate Sets</h5>
                     <p class="card-text" style="color: #dd4545;">$30.00</p>
                 </div>
             </div>
             <!--Modern Sofa-->
-            <div>
+            <div id="_7" class="item">
                 <div>
                     <img src="./public/img/products_mini/product-modern-sofa.jpg" class="card-img-top" alt="...">
                 </div>
@@ -323,6 +323,15 @@
                     <p class="card-text" style="color: #dd4545;">$900.00</p>
                 </div>
             </div>
+        </div>
+        <div id="butt">
+            <button id="butt_1" type="button" class="btn" style="border-color: gray;"></button>
+            <button id="butt_2" type="button" class="btn" style="border-color: gray;"></button>
+            <button id="butt_3" type="button" class="btn" style="border-color: gray;"></button>
+            <button id="butt_4" type="button" class="btn" style="border-color: gray;"></button>
+            <button id="butt_5" type="button" class="btn" style="border-color: gray;"></button>
+            <button id="butt_6" type="button" class="btn" style="border-color: gray;"></button>
+        </div>
     </section>
     <!--3 Giant Cubes-->
     <section id="six_section">

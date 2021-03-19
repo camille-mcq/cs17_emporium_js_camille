@@ -10816,6 +10816,188 @@ img {
 #cinq_section h3, #cinq_section .h3 {
   font-weight: bold;
 }
+#cinq_section .carousel {
+  position: relative;
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #cacaca;
+  display: flex;
+  overflow-x: hidden;
+}
+#cinq_section .carousel .item {
+  margin-left: 8%;
+  margin-right: 8%;
+  transition: transform 0.5s linear;
+  transform: translateX(0);
+}
+#cinq_section .carousel img {
+  width: 180px;
+  height: 180px;
+}
+#cinq_section #butt {
+  background-color: #cacaca;
+  width: 80%;
+  margin: 0 auto;
+}
+#cinq_section #butt #butt_1 {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: relative;
+}
+@media screen and (max-width: 1025px) {
+  #cinq_section #butt #butt_1 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #cinq_section #butt #butt_1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_1 {
+    font-size: 20px;
+  }
+}
+#cinq_section #butt #butt_2 {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: relative;
+}
+@media screen and (max-width: 1025px) {
+  #cinq_section #butt #butt_2 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #cinq_section #butt #butt_2 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_2 {
+    font-size: 20px;
+  }
+}
+#cinq_section #butt #butt_3 {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: relative;
+}
+@media screen and (max-width: 1025px) {
+  #cinq_section #butt #butt_3 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #cinq_section #butt #butt_3 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_3 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_3 {
+    font-size: 20px;
+  }
+}
+#cinq_section #butt #butt_4 {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: relative;
+}
+@media screen and (max-width: 1025px) {
+  #cinq_section #butt #butt_4 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #cinq_section #butt #butt_4 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_4 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_4 {
+    font-size: 20px;
+  }
+}
+#cinq_section #butt #butt_5 {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: relative;
+  display: none;
+}
+@media screen and (max-width: 1025px) {
+  #cinq_section #butt #butt_5 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #cinq_section #butt #butt_5 {
+    display: unset;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_5 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_5 {
+    font-size: 20px;
+  }
+}
+#cinq_section #butt #butt_6 {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: relative;
+  display: none;
+}
+@media screen and (max-width: 1025px) {
+  #cinq_section #butt #butt_6 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #cinq_section #butt #butt_6 {
+    display: unset;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_6 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 569px) {
+  #cinq_section #butt #butt_6 {
+    font-size: 20px;
+  }
+}
 
 #six_section {
   margin-top: 20px;
