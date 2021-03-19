@@ -10642,6 +10642,7 @@ nav {
 .navbar-brand {
   align-self: center;
   width: 30%;
+  position: fixed;
 }
 
 img {

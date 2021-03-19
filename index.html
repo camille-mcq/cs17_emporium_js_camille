@@ -45,13 +45,57 @@
                   <li>
                     <button type="button" class="btn btn-light" style="border-color: gray;"></button>
                     <button type="button" class="btn btn-dark"></button>
-                    <button class="btn" type="submit" style="background-color: rgb(196, 181, 181);">CONNEXION</button>
+                    <button style="background-color: rgb(196, 181, 181);"type="button" class="btn btn-secondary connect" data-bs-toggle="modal" data-bs-target="#exampleModal">CONNEXION</button>
                   </li>
                 </ul>
               </div>
             </div>
-          </nav>
-
+        </nav>
+          <!-- Modal -->
+          <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title w-100 text-center" id="exampleModalLabel">Sign Up</h5>
+                        <h5 class="modal-title w-100 text-center" id="exampleModalLabel">Register</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!-- Partie de gauche -->
+                    <div class="modal-body d-flex">
+                        <div class="h-100 w-100">
+                            <div class="d-flex flex-column w-50">
+                                <input class="my-2 mx-2" type="text" placeholder="Email Adress">
+                                <input class="my-2 mx-2" type="password" placeholder="Password">
+                                <button type="button" class="btn btn-info my-2 mx-2 text-white">Sign Up</button>
+                            </div>
+                            <!-- Connectez-vous -->
+                            <div class="d-flex flex-column w-100 my-4">
+                            <!-- Button Google -->
+                                <button type="button" class="btn bg-danger text-white mt-2">
+                                <i class="fab fa-google-plus-g"></i> Connect with Google</button>
+                            <!-- Fb -->
+                                <button type="button" class="btn btn-primary mt-2"><i class="fab fa-facebook-f text-white fs-5"></i> Connect with Facebook</button>
+                            </div>
+                        </div>
+                        <!-- Register -->
+                        <div class="h-100 w-100">
+                            <div class="d-flex w-100">
+                                <input class="w-75  mx-1" type="text" placeholder="First Name">
+                                <input class="w-75 mx-1" type="text" placeholder="Name">
+                            </div>
+                            <!-- Connectez-vous -->
+                            <div class="d-flex flex-column w-100 my-4">
+                                <input class="mx-1" type="text" placeholder="Email Adress">
+                            </div>
+                            <!-- Mot de Passe -->
+                            <div class="d-flex w-100">
+                                <input class="w-75 mx-1" type="password" placeholder="Password">
+                                <input class="w-75 mx-1" type="password" placeholder="Confirm Password">
+                            </div>
+                            <button type="button"class="btn btn-info w-50 mt-2 ms-1 text-white lastElement myBdr">Register</button>
+                        </div>
+                    <div> 
+                <!--Fin du modal-->  
     </header>
     <!--Section 1/ image à center-->
     <section id="Première_section">
